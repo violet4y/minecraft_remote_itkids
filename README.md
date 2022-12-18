@@ -6,3 +6,5 @@ Minecraft APIs made by IT Kids
 自作APIを集める。
 
 [<img src="./kadai.png" width="400">](./kadai.png)
+
+[<img src="./mykadai.png" width="400">](./mykadai.png)
