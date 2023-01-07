@@ -7,4 +7,3 @@ Minecraft APIs made by IT Kids
 
 [<img src="./mykadai.png" width="400">](./mykadai.png)
 
-[<img src="./kadai.png" width="400">](./kadai.png)
