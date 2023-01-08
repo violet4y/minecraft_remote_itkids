@@ -4,7 +4,7 @@ import param_MCJE as param
 
 "量産型"
 
-import pyramid
+import pyramid_row
 import pyramid_single
 
 mc = Minecraft.create(port=param.PORT_MC)  # MCJE:14712, MCPI:4711

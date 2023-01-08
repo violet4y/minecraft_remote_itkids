@@ -21,7 +21,7 @@ def set_pyramid(X=10, Y=63, Z=10, H=6, SLEEP=0.8, BLOCK=param.GOLD_BLOCK):
             for i in range(2*H-1-POS*2):
                 mc.setBlock(X+POS+XPOS, Y+POS, Z+POS, BLOCK)
                 XPOS += 1
-                sleep(SLEEP)
+                sleep(SLEEP/5)
             Z += 1
             XPOS = 0
             sleep(SLEEP)
