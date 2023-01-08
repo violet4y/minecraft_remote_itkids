@@ -2,14 +2,16 @@
 from mcje.minecraft import Minecraft
 import param_MCJE as param
 
-"量産型"
+"voplet4y API"
 
-import pyramid_row
-import pyramid_single
+
+import pyramid
 
 mc = Minecraft.create(port=param.PORT_MC)  # MCJE:14712, MCPI:4711
-mc.postToChat("demo4-set pyramid!!")
+mc.postToChat("violet4y api build a pyramid!!")
 
-pyramid.set_pyramid(X=10, Y=63, Z=10, H=6, SLEEP=0.5, BLOCK=param.GOLD_BLOCK)
+# pyramidtype = 1...    build a pyramid by 1 row
+# pyramidtype = 2...    build a pyramid by 1 block
+pyramid.set_pyramid(pyramidtype=2, X=10, Y=63, Z=10, H=6, SLEEP=0.5, BLOCK=param.GOLD_BLOCK)
 
 mc.postToChat("finish")
