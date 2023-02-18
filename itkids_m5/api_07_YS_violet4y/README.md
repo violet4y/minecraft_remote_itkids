@@ -50,3 +50,7 @@ Hに数値を入れることでピラミッドの高さが決まります。
 ## *BLOCK*
 ---
 ピラミッドを構築するブロックを指定できます。
+
+|param.IRON_BLOCK|param.GOLD_BLOCK|param.DIAMOND_BLOCK|
+|---|---|---|
+|[<img src="./pyramid-iron.png" width="300">](./pyramid-iron.png)|[<img src="./pyramid-gold.png" width="300">](./pyramid-gold.png)|[<img src="./pyramid-diamond.png" width="300">](./pyramid-diamond.png)|
