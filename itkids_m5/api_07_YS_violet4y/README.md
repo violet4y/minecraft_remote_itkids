@@ -6,7 +6,8 @@ Minecraft APIs made by IT Kids
 
 ピラミッドを作るコード
 
-[<img src="./images/api.png" width="500">](./images/api.png)
+[<img src="./images/api.png" width="400">](./images/api.png)[<img src="./images/diagonal-pyramids.png" width="400">](./images/diagonal-pyramids.png)
+
 
 ## [api_violet4y.py](api_violet4y.py)
 ピラミッドを作るコードです。x,y,zの座標、高さ、作成速度を設定できます。
@@ -14,8 +15,11 @@ Minecraft APIs made by IT Kids
 ```
 pyramid.set_pyramid(pyramidtype=1, X=10, Y=63, Z=10, H=6, SLEEP=0.5, BLOCK=param.GOLD_BLOCK)
 ```
+```
+pyramid.set_pyramid_diagonal(X=10, Y=63, Z=10, H=5, SLEEP=0.1, BLOCK=param.GOLD_BLOCK)
+```
 
-## --**コードについて**--
+## --**コードについて** <set_pyramid>--
 ---
 
 ## *pyramidtype*
@@ -54,3 +58,11 @@ Hに数値を入れることでピラミッドの高さが決まります。
 |param.IRON_BLOCK|param.GOLD_BLOCK|param.DIAMOND_BLOCK|
 |---|---|---|
 |[<img src="./images/pyramid-iron.png" width="300">](./images/pyramid-iron.png)|[<img src="./images/pyramid-gold.png" width="300">](./images/pyramid-gold.png)|[<img src="./images/pyramid-diamond.png" width="300">](./images/pyramid-diamond.png)|
+
+---
+## --**コードについて** <set_pyramid_diagonal>--
+
+| H | 4 | 5 | 6 | 7 |
+|:---|:---:|:---:|:---:|:---:|
+|横幅|7|9|11|13|
+|画像|[<img src="./images/dia-4hei.png" width="300">](./images/dia-4hei.png)|[<img src="./images/dia-5hei.png" width="300">](./images/dia-5hei.png)|[<img src="./images/dia-6hei.png" width="300">](./images/dia-6hei.png)|[<img src="./images/dia-7hei.png" width="300">](./images/dia-7hei.png)|
