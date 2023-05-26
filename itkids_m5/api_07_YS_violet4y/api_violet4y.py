@@ -14,4 +14,7 @@ mc.postToChat("violet4y api build a pyramid!!")
 # pyramidtype = 2...    build a pyramid by 1 block
 pyramid.set_pyramid(pyramidtype=1, X=10, Y=63, Z=10, H=6, SLEEP=0.5, BLOCK=param.GOLD_BLOCK)
 
+# If you want to create a diagonal pyramid, please run this.
+# pyramid.set_pyramid_diagonal(X=10, Y=63, Z=10, H=5, SLEEP=0.1, BLOCK=param.GOLD_BLOCK)
+
 mc.postToChat("finish")

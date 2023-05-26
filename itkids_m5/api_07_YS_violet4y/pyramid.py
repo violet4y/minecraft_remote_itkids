@@ -40,13 +40,27 @@ def set_pyramid(pyramidtype=1, X=10, Y=63, Z=10, H=6, SLEEP=0.8, BLOCK=param.GOL
     
 
     mc.setBlock(X+POS-2, Y+POS-2, Z+POS-3, param.GLOWSTONE)
+
+
+def set_pyramid_diagonal(X=10, Y=63, Z=10, H=5, SLEEP=0.1, BLOCK=param.GOLD_BLOCK):
+    mc.postToChat("create a pyramid")
+    sleep(3)
+    for count in range(H):
+        xdifference = H-1-count
+        zdifference = 0
+        while zdifference < H-count:
+            mc.setBlocks(X+xdifference, Y+count, Z+zdifference, X-xdifference, Y+count, Z-zdifference, BLOCK)
+            xdifference -= 1
+            zdifference += 1
+            sleep(SLEEP)
+    mc.setBlock(X, Y+H-1, Z, param.GLOWSTONE)
     
 
 
 if __name__ == "__main__":
     mc = Minecraft.create(port=param.PORT_MC)
-    set_pyramid(X=10, Z=10, Y=63, H=6, SLEEP=0.3, BLOCK=param.GOLD_BLOCK)
-
+    set_pyramid_diagonal(-5,63,5,9,0.1,param.SANDSTONE)
+    #set_pyramid(X=10, Z=10, Y=63, H=6, SLEEP=0.3, BLOCK=param.GOLD_BLOCK)
 
 
 
