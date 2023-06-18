@@ -59,7 +59,7 @@ def set_pyramid_diagonal(X=10, Y=63, Z=10, H=5, SLEEP=0.1, BLOCK=param.GOLD_BLOC
 
 if __name__ == "__main__":
     mc = Minecraft.create(port=param.PORT_MC)
-    set_pyramid_diagonal(15,63,12,5,0.1,param.SANDSTONE)
+    set_pyramid_diagonal(15,63,12,8,0.1,param.SANDSTONE)
     #set_pyramid(X=10, Z=10, Y=63, H=6, SLEEP=0.3, BLOCK=param.GOLD_BLOCK)
 
 
