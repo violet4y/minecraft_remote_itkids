@@ -6,7 +6,7 @@ Minecraft APIs made by IT Kids
 
 ピラミッドを作るコード
 
-[<img src="./images/api.png" width="400">](./images/api.png)[<img src="./images/diagonal-pyramids.png" width="400">](./images/diagonal-pyramids.png)
+[<img src="./images/api.png" width="400">](./images/api.png)[<img src="./images/diagonal-pyramids.png" width="400">](./images/diagonal-pyramids.png)[<img src="./images/biggest.png" width="400">](./images/biggest.png)
 
 
 ## [api_violet4y.py](api_violet4y.py)
