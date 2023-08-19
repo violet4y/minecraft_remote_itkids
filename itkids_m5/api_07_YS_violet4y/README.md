@@ -67,3 +67,12 @@ Hに数値を入れることでピラミッドの高さが決まります。
 |:---|:---:|:---:|:---:|:---:|
 |横幅|7|9|11|13|
 |画像|[<img src="./images/dia-4hei.png" width="300">](./images/dia-4hei.png)|[<img src="./images/dia-5hei.png" width="300">](./images/dia-5hei.png)|[<img src="./images/dia-6hei.png" width="300">](./images/dia-6hei.png)|[<img src="./images/dia-7hei.png" width="300">](./images/dia-7hei.png)|
+
+
+## --丸形ピラミッド--
+```
+pyramid.set_pyramid(pyramidtype=3, X=10, Y=63, Z=10, H=6, SLEEP=0.5, BLOCK=param.GOLD_BLOCK)
+```
+
+[<img src="./images/circle.png" width="400">](./images/circle.png)
+
